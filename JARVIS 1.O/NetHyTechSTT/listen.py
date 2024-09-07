@@ -27,7 +27,7 @@ driver.get(website)
 Recog_File = f"{getcwd()}\\input.txt"
 
 def listen():
-    print("Made By Deep Bhullar 😊")
+    print("Made By @Deep Bhullar 😊")
     try:
         start_button = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.ID, 'startButton')))
         start_button.click()
